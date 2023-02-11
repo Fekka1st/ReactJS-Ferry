@@ -1,0 +1,84 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* light theme */
+
+nav.light-nav{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #aaa;
+    background-color: white;
+}
+
+nav.light-nav li{
+    display: flex;
+}
+
+nav.light-nav li a {
+    color: #aaa;
+    padding: 20px 16px;
+}
+
+nav.light-nav li:hover {
+    background-color: #eee;
+    color: white;
+}
+
+
+/* dark theme */
+
+
+nav.dark-nav{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #aaa;
+    background-color: #333;
+}
+
+
+nav.dark-nav li{
+    display: flex;
+}
+
+nav.dark-nav li a {
+    color: white;
+    padding: 20px 16px;
+}
+
+nav.dark-nav li:hover {
+    background-color: #aaa;
+    color: white;
+}
+
+/* switch button  */
+
+
+nav.light-nav li span{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    
+}
+
+nav.dark-nav li span{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    
+}
+
+.ant-switch{
+    min-width: 70px;
+    display: flex;
+}
+
+.switch{
+    position: absolute;
+    
+    right: 0;
+    margin-right: 40px;
+    margin-top:20px;
+}

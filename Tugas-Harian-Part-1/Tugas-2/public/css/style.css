@@ -1,0 +1,77 @@
+.utama{
+    border: 1px solid gray;
+}
+
+.konten{
+    margin: 3cm;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+div{
+    border-bottom: 1px solid grey;
+}
+
+table{
+    margin-left: 20px ;
+}
+
+.ket{
+    margin-left: 20px;
+    }
+
+body{
+    background-image:url("../img/pattern.jpg");
+    }
+
+nav {
+    background-color: #fff !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+  }
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 50px;
+  }
+  
+nav img {
+    height: fit-content;
+    margin: auto 50px;
+  }
+  
+nav ul a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
+  
+nav ul .active {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+  }
+
+footer{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
+    color: white ;
+    padding-left: 43.5% ;
+}
+
+
